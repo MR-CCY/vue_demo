@@ -28,6 +28,8 @@
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
+
+    <button @click="hello">爱你摸摸大</button>
   </div>
 </template>
 
@@ -37,6 +39,12 @@ export default {
   props: {
     msg: String
   }
+,
+methods:{
+  hello(){
+    alert('我爱你韩锐大帅哥！mua!!!!!!')
+  }
+}
 }
 </script>
 
